@@ -501,3 +501,6 @@ class HAWCLike(PluginPrototype):
 
         self._theLikeHAWC.WriteResidualMap(fileName)
 
+    def update_sources(self):
+    
+        self._theLikeHAWC.UpdateSources()
